@@ -34854,7 +34854,7 @@
   "nativeCurrency": {
     "name": "No native currency",
     "symbol": "USD",
-    "decimals": 6
+    "decimals": 18
   },
   "infoURL": "https://tempo.xyz",
   "shortName": "tempo-andantino",
@@ -34876,7 +34876,7 @@
   "nativeCurrency": {
     "name": "No native currency",
     "symbol": "USD",
-    "decimals": 6
+    "decimals": 18
   },
   "infoURL": "https://tempo.xyz",
   "shortName": "tempo-moderato",
