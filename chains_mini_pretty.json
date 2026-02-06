@@ -5000,7 +5000,7 @@
     "symbol": "KALIS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://kalichain.com"
 }, {
@@ -5013,7 +5013,7 @@
     "symbol": "KALIS",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "infoURL": "https://kalichain.com"
 }, {
@@ -6413,8 +6413,8 @@
   "shortName": "stable",
   "networkId": 988,
   "nativeCurrency": {
-    "name": "gUSDT",
-    "symbol": "gUSDT",
+    "name": "USDT0",
+    "symbol": "USDT0",
     "decimals": 18
   },
   "rpc": ["https://rpc.stable.xyz"],
@@ -9449,6 +9449,19 @@
   "rpc": ["https://rpc.onuschain.io", "wss://ws.onuschain.io"],
   "faucets": [],
   "infoURL": "https://onuschain.io"
+}, {
+  "name": "CratD2C Testnet",
+  "chainId": 1979,
+  "shortName": "cratd2c-testnet",
+  "networkId": 1979,
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRAT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-testnet-1.cratd2csmartchain.io/", "https://rpc-testnet-2.cratd2csmartchain.io/", "https://rpc-testnet-3.cratd2csmartchain.io/"],
+  "faucets": [],
+  "infoURL": "https://cratd2csmartchain.io"
 }, {
   "name": "Krown Mainnet",
   "chainId": 1983,
@@ -22541,6 +22554,19 @@
   "faucets": [],
   "infoURL": "https://kaichain.net"
 }, {
+  "name": "Gelatine Network",
+  "chainId": 61564,
+  "shortName": "jello",
+  "networkId": 61564,
+  "nativeCurrency": {
+    "name": "JELLO",
+    "symbol": "JELLO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pine.ink"],
+  "faucets": ["https://gelatine.pine.ink"],
+  "infoURL": "https://gelatine.pine.ink"
+}, {
   "name": "AxelChain Dev-Net",
   "chainId": 61800,
   "shortName": "aium-dev",
@@ -22762,9 +22788,9 @@
   "faucets": [],
   "infoURL": "https://kuma.bid"
 }, {
-  "name": "CratD2C Testnet",
+  "name": "CratD2C Testnet Deprecated",
   "chainId": 65349,
-  "shortName": "cratd2c-testnet",
+  "shortName": "cratd2c-testnet-deprecated",
   "networkId": 65349,
   "nativeCurrency": {
     "name": "CRATD2C",

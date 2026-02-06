@@ -8324,7 +8324,7 @@
 }, {
   "name": "Kalichain Testnet",
   "chain": "Kalichain",
-  "rpc": ["https://rpc.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -8336,15 +8336,12 @@
   "chainId": 653,
   "networkId": 653,
   "icon": "kalichain",
-  "explorers": [{
-    "name": "kalichain explorer",
-    "url": "https://explorer.kalichain.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "Kalichain",
   "chain": "Kalichain",
-  "rpc": ["https://mainnet.kalichain.com"],
+  "rpc": [],
   "faucets": [],
   "nativeCurrency": {
     "name": "kalis",
@@ -8356,11 +8353,8 @@
   "chainId": 654,
   "networkId": 654,
   "icon": "kalichain",
-  "explorers": [{
-    "name": "kalichain explorer",
-    "url": "https://explorer.kalichain.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [],
+  "status": "deprecated"
 }, {
   "name": "AmaxSmartchain",
   "chain": "AmaxSmartchain",
@@ -10665,8 +10659,8 @@
     "name": "EIP1559"
   }],
   "nativeCurrency": {
-    "name": "gUSDT",
-    "symbol": "gUSDT",
+    "name": "USDT0",
+    "symbol": "USDT0",
     "decimals": 18
   },
   "infoURL": "https://stable.xyz",
@@ -15590,6 +15584,27 @@
     "name": "Onus explorer mainnet",
     "url": "https://explorer.onuschain.io",
     "icon": "onus",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "CratD2C Testnet",
+  "chain": "CRATD2C",
+  "rpc": ["https://rpc-testnet-1.cratd2csmartchain.io/", "https://rpc-testnet-2.cratd2csmartchain.io/", "https://rpc-testnet-3.cratd2csmartchain.io/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CRATD2C",
+    "symbol": "CRAT",
+    "decimals": 18
+  },
+  "infoURL": "https://cratd2csmartchain.io",
+  "shortName": "cratd2c-testnet",
+  "chainId": 1979,
+  "networkId": 1979,
+  "icon": "cratd2c-testnet",
+  "explorers": [{
+    "name": "Blockscout",
+    "url": "https://explorer-testnet.cratd2csmartchain.io",
+    "icon": "blockscout",
     "standard": "EIP3091"
   }]
 }, {
@@ -37417,6 +37432,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Gelatine Network",
+  "chain": "JELLO",
+  "icon": "jello",
+  "rpc": ["https://rpc.pine.ink"],
+  "faucets": ["https://gelatine.pine.ink"],
+  "nativeCurrency": {
+    "name": "JELLO",
+    "symbol": "JELLO",
+    "decimals": 18
+  },
+  "infoURL": "https://gelatine.pine.ink",
+  "shortName": "jello",
+  "chainId": 61564,
+  "networkId": 61564,
+  "explorers": [{
+    "name": "Gelatine Explorer",
+    "url": "https://explorer.pine.ink",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "AxelChain Dev-Net",
   "chain": "AXEL",
   "rpc": ["https://aium-rpc-dev.viacube.com"],
@@ -37804,8 +37839,9 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "CratD2C Testnet",
+  "name": "CratD2C Testnet Deprecated",
   "chain": "CRATD2C",
+  "status": "deprecated",
   "rpc": ["https://cratd2c-testnet-node1.cratd2csmartchain.io/", "https://cratd2c-testnet-node2.cratd2csmartchain.io/"],
   "faucets": [],
   "nativeCurrency": {
@@ -37814,7 +37850,7 @@
     "decimals": 18
   },
   "infoURL": "https://cratd2csmartchain.io",
-  "shortName": "cratd2c-testnet",
+  "shortName": "cratd2c-testnet-deprecated",
   "chainId": 65349,
   "networkId": 65349,
   "icon": "cratd2c-testnet",
